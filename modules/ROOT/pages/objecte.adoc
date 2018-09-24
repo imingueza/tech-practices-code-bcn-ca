@@ -1,0 +1,39 @@
+= Objecte i abast
+
+== Objecte
+
+Aquest document constitueix el Codi de pràctiques tecnològiques que desplega de manera pràctica l'estratègia de transformació digital àgil de l'Ajuntament de Barcelona, de conformitat amb els estàndards de serveis digitals de la ciutat enunciats el setembre del 2017.
+
+Aquest Codi consisteix principalment en una relació de principis i requeriments directes i clars, que permeten entendre de manera ràpida els diferents elements de la transformació digital en marxa a la ciutat de Barcelona.
+Té per objectiu permetre als responsables de la governança i de la gestió de projectes de serveis digitals assegurar que aquests s'alineen amb l'estratègia de l'Ajuntament de Barcelona en aquest àmbit.
+
+El Codi està plantejat com un document pràctic de referència i no conté justificacions teòriques per a les polítiques proposades ni referències a exemples, tret d'en comptades ocasions.
+
+Les directrius concretes estan basades en pràctiques exemplars de diversos països i contextos.
+El Regne Unit, els Estats Units, Suècia i els Països Baixos, entre molts d'altres, han desplegat polítiques innovadores a escala estatal de tecnologies obertes i desenvolupaments _agile_.
+
+== Abast i aplicació
+
+Aquest Codi de pràctiques tecnològiques és d'aplicació en la gestió i governança dels projectes de tecnologia i innovació que s'incloguin dins del Pla de transformació digital àgil, tant per a l'Institut Municipal d'Informàtica (IMI) com per d'altres entitats i departaments dependents de l'Ajuntament de Barcelona.
+Així mateix, concerneix el disseny i la construcció de tots els serveis digitals de l'Ajuntament, entenent com a tals els serveis de gestió i lliurament de la informació mitjançant plataformes i dispositius digitals.
+
+Es dirigeix a tots els líders i responsables de les unitats del grup municipal, els administradors de programes i el personal implicat en la posada en marxa d'aquesta estratègia.
+Els responsables de cada gerència tenen la comesa última d'assegurar que les directrius de l'estratègia i d'aquest Codi es despleguin.
+La posada en marxa d'aquests principis i directrius es farà a través de la realització dels projectes de transformació digital àgil de l'Ajuntament, gestionats principalment per l'IMI.
+Aquests projectes permetran la dedicació de recursos, la creació d'infraestructura i l'adquisició de competències per a realitzar aquestes transformacions.
+D'aquesta manera, la gestió del canvi que suposa l'aplicació d'aquestes pràctiques dins de l'Ajuntament es realitzarà de manera iterativa a través de projectes concrets.
+Alguns projectes i les seves ampliacions (per exemple, Decidim Barcelona, Sentilo, BIMA) ja compleixen en bona mesura les directrius indicades aquí, uns altres ho aniran aconseguint amb un procés d'aplicació més progressiu.
+
+== Estructura
+
+Aquest document s'estructura en un conjunt de principis generals, avalats per directrius que corresponen als tres principals eixos de l'estratègia de transformació digital àgil de l'Ajuntament de Barcelona:
+
+* El desenvolupament de serveis digitals àgils
+* La sobirania tecnològica, basada en l'ús d'estàndards oberts i de programari lliure
+* La gestió ètica i segura de dades i la política de dades obertes
+
+Aquest document és complementari i no substitueix cap política de l'organització ni regulació municipal o d'altres àmbits.
+
+Aquest codi de pràctiques tecnològiques s'acompanya de dos documents de recolzament per a afavorir el desenvolupament del Pla de Transformació Digital Àgil: la Guia sobre Metodologies Àgils i la Guia sobre Sobirania Tecnològica.
+Tanmateix, el Pla s'implementa a través de les Guies de Contractació de l'Ajuntament, en especial la Guia de Compra Pública de TIC i la Guia de Compra Innovadora.
+En relació a de la gestió responsable i ètica de dades, element essencial del Pla de Transformació Digital Àgil (en especial la estratègia de Dades Obertes i el _Data Commons_, els projectes _Data Driven_ i la interoperabilitat basada en formats de dades oberts), les corresponents directius i la seva posada en pràctica es desenvoluparan en una nova Mesura de Govern sobre la _Estratègia de Gestió Responsable_ i _Ètica de Dades a l'Ajuntament de Barcelona_, que es concretarà amb els necessaris detalls tècnics, processos i responsabilitats.
