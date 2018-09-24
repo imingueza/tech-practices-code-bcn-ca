@@ -1,0 +1,6 @@
+name: codi-practiques-tec
+title: Codi de pràctiques tecnològiques
+version: 0.1
+start_page: ROOT:objecte.adoc
+nav:
+- modules/ROOT/nav.adoc

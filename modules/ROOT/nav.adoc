@@ -1,0 +1,5 @@
+* xref:objecte.adoc[Objecte i abast]
+* xref:mesures.adoc[Mesures i aplicació a la contractació]
+* xref:directrius.adoc[Directrius per al disseny i el desenvolupament digital]
+* xref:referencies.adoc[Referències]
+* xref:glossari:ROOT:glossari.adoc[Glossari]
