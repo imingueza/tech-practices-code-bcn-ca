@@ -1,0 +1,101 @@
+= Principis de disseny i desenvolupament de serveis digitals
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+Els principis i directrius generals següents despleguen l'Estratègia de transformació digital àgil de l'Ajuntament de Barcelona i els estàndards de serveis digitals, pel que fa al seu disseny, desenvolupament i manteniment.
+
+{counter:principle}. SEGUIR ELS ESTÀNDARDS DE SERVEIS DIGITALS I GESTIÓ RESPONSABLE DE DADES::
+
+Tot nou servei digital haurà de seguir l'Estàndard de serveis digitals de l'Ajuntament i l'Estratègia de gestió responsable de dades.
+
+{counter:principle}. ADREÇAT ALS CIUTADANS::
+
+Els serveis digitals de l'Ajuntament de Barcelona s'enfoquen a cobrir les necessitats de l'usuari.
+Tots els sistemes i serveis estan en darrer terme al servei del ciutadà, han d'aportar utilitat i valor afegit a la seva experiència.
+
+{counter:principle}. CLAREDAT EN OBJECTIUS I RECURSOS::
+
+Els projectes han de demostrar claredat en els objectius que volen aconseguir, l'impacte d'aquests objectius i com s'integren a les línies estratègiques de l'Ajuntament.
+No és suficient que un projecte tingui coherència interna i estigui ben desenvolupat; s'ha d'explicar com el servei digital resoldrà necessitats concretes de l'Ajuntament i dels ciutadans.
++
+Els projectes han d'especificar els recursos tècnics i organitzatius necessaris per a la seva execució i com seran coberts.
+No és necessari definir tots els detalls dels projectes en les seves fases inicials, però tampoc no hauran d'aprovar-se grans projectes sense una anàlisi suficient d'aquests aspectes.
+
+{counter:principle}. ANÀLISI D'OPCIONS::
+
+Tot servei nou ha de començar amb una anàlisi estratègica d'opcions per determinar si ha de ser construït dins de l'organització, per part de proveïdors externs o mitjançant un equip mixt.
+Així mateix, s'haurà de determinar el mètode de desenvolupament que cal utilitzar (per defecte, Agile) i la possibilitat de crear, utilitzar o reutilitzar programari lliure.
+Com a part d'aquest procés, és necessari veure les implicacions de l'elecció de tecnologies i metodologies quant a la gestió i formació de personal intern i extern de l'Ajuntament.
+
+{counter:principle}. PRINCIPI DE SIMPLICITAT::
+
+Els serveis desenvolupats es dissenyaran aplicant els principis de claredat i simplicitat en el seu ús i arquitectura.
+S'intentaran unificar les diferents versions d'aplicacions dins de l'organització i evitar la proliferació de versions diferents.
+Prevaldrà la construcció de solucions transversals a tota l'organització davant de solucions verticals (sectorials).
++
+Sempre que sigui possible, s'intentaran minimitzar les modificacions del programari “estàndard” (tant propietari com programari lliure), per facilitar-ne el desplegament i l'ús, mantenir els avantatges de cost i rapidesa que pugui tenir una solució estàndard davant el desenvolupament a mida i evitar problemes a l'hora d'actualitzar-la o substituir-la.
+Qualsevol modificació o extensió seguirà un estricte control tècnic de les seves implicacions pressupostàries més enllà de les del mateix projecte (en el temps i en el seu abast organitzatiu).
+
+{counter:principle}. METODOLOGIES DE DESENVOLUPAMENT ÀGIL I INNOVACIÓ CONTÍNUA::
+
+Les metodologies de desenvolupament àgil, centrades en l'usuari, s'utilitzaran per defecte en tots els projectes tecnològics de l'IMI posant el focus en la innovació contínua en línia amb els principis del Manifest _Agile_.
+Els projectes es desenvoluparan en un procés iteratiu i incremental, provant hipòtesis i creant prototips, utilitzant analítica i experimentació. S'utilitzarà la metodologia Agile de l'Ajuntament, Scrum@IMI.
+
+{counter:principle}. REUTILITZAR I PROVEIR COMPONENTS I SERVEIS COMUNS::
+
+Els projectes intentaran, sempre que es pugui, reutilitzar components i serveis digitals comuns ja existents i, en cas que no existeixin o puguin ser millorats, contribuir a la seva creació o desenvolupament, abans de considerar la creació d'alternatives paral·leles.
+Això permet abaratir costos i generar consistència en l'experiència de l'usuari i en el manteniment dels serveis.
+
+{counter:principle}. SERVEIS INTEGRATS I INTEGRALS::
+
+Els nous serveis digitals han de demostrar com integraran verticalment els components i les tecnologies necessaris per al seu funcionament.
+El disseny del servei ha de preveure des de l'experiència de l'usuari fins a les implicacions per a l'arquitectura de sistemes i el seu manteniment.
+Això requerirà la col·laboració entre equips de diferents departaments i especialitats.
+
+{counter:principle}. MANTENIMENT I DOCUMENTACIÓ::
+
+Els serveis seguiran la classificació corporativa d'informació (Catàleg de Serveis) i s'operaran d'acord a les millors pràctiques d'ITIL.
+Els nous serveis digitals han de mantenir una documentació de qualitat, inclosos guies i manuals posats a disposició pública perquè puguin ser accessibles per tots els interessats (*stakeholders*), tant interns com externs (proveïdors) per què tots ells puguin contribuir en el procés de documentació. 
+La documentació es mantindrà en una plataforma centralitzada amb formats estàndards, control de versions i autoria.
+
+{counter:principle}. ARQUITECTURA DELS NOUS SERVEIS::
+
+Els nous serveis digitals de l'Ajuntament evitaran sempre que sigui possible les arquitectures tradicionals client-servidor, i preferiran solucions web que compleixen els estàndards de W3C, donat que ofereixen més flexibilitat, interoperabilitat i independència del maquinari i els sistemes operatius del client on s'executin.
+Tot nou projecte ha de contribuir a eliminar serveis antiquats per aconseguir reduir el nombre de serveis i tecnologies en ús.
+En els serveis en què tingui sentit, s'inclouran en els projectes de desenvolupament interfícies per a accés mitjançant programació (APIs), que hauran d'estar correctament documentats.
+
+{counter:principle}. ACCESSIBILITAT I BILINGÜISME::
+
+Els serveis digitals seran concebuts des de la seva fase inicial de manera bilingüe en català i castellà i seran accessibles a tots els usuaris, tant interns com ciutadans, de conformitat amb els llibres d'estil lingüístic i d'accessibilitat vigents en cada moment per als serveis de l'Ajuntament.
+
+{counter:principle}. SEGURETAT::
+
+El disseny dels serveis i projectes haurà de tenir en compte la seguretat des de la seva conceptualització inicial.
+Els serveis hauran de seguir la Política de seguretat corporativa i els estàndards basats en la norma ISO27002 i l'Esquema nacional de seguretat.
+
+{counter:principle}. CONTRACTACIÓ::
+
+L'adquisició i contractació de serveis tecnològics ha d'aplicar les Guies de contractació de l'Ajuntament de Barcelona (la Guia de contractació pública social i la Guia de contractació pública ambiental del Decret d'Alcaldia de contractació pública sostenible (S1/D/2017-1271 de 24 d'abril), i les Guies de contractació tecnològica i de compra innovadora.
+La contractació de nous serveis es farà de manera prioritària a través d'acords marc de contractació (_procurement frameworks_).
++
+Per donar suport al principi de sobirania tecnològica de la ciutat, s'hauran d'evitar dependències d'un sol proveïdor, la qual cosa també és un factor clau per augmentar la capacitat d'innovació en els serveis públics.
+La integració de sistemes l'ha de dur a terme un proveïdor diferent als fabricants d'aquests sistemes.
+Sempre que sigui possible, la contractació de serveis digitals ha d'augmentar la diversitat de proveïdors i limitar el volum pressupostari dels contractes.
++
+Respectant el marc legal i les normatives de competència es fomentarà la contractació de PIME de la ciutat i la seva àrea d'influència, però si és necessari també es facilitarà la contractació d'empreses especialitzades de l'àmbit nacional i d'altres països de la UE.
+
+{counter:principle}. SOBIRANIA TECNOLÒGICA I PROGRAMARI LLIURE::
+
+Els projectes han de promoure la sobirania tecnològica, basada en els principis que guien l'Institut Municipal d'Informàtica de Barcelona en matèria de tecnologia i innovació: interoperabilitat, agilitat, reutilització, ètica i obertura de coneixements i tecnologies.
+L'IMI haurà d'incorporar el programari lliure i les tecnologies i estàndards oberts en els seus serveis i processos tecnològics, de manera integrada a tota l'arquitectura dels sistemes.
+
+{counter:principle}. SOBIRANIA CIUTADANA SOBRE LES DADES::
+
+La ciutadania i el bé comú han d'estar en el cor dels plans i les plataformes tecnològiques del municipi de Barcelona que recullen, creen i/o gestionen dades i altra informació. Cal fer possible el control ciutadà de les dades, minimitzar l'escletxa digital i evitar pràctiques discriminatòries o no ètiques respecte de les dades.
+
+{counter:principle}. ACCÉS, REUTILITZACIÓ DE DADES I INNOVACIÓ::
+
+Les institucions municipals han de ser obertes, transparents i responsables davant de la ciutadania.
+Cal assegurar que la informació i documents municipals siguin accessibles, usables i analitzables per afavorir l'emprenedoria, la innovació social i digital, els llocs de treball i l'excel·lència en la recerca científica, millorar la vida dels ciutadans de Barcelona i contribuir de forma significativa a l'estabilitat i la prosperitat de la ciutat.

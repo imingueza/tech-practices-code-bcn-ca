@@ -1,0 +1,304 @@
+= Directrius per al disseny i el desenvolupament de serveis digitals
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+En el disseny i el desenvolupament de serveis digitals, s'hauran de seguir les següents directrius organitzades en tres àrees:
+
+. *Metodologies _Agile_*
+. *Sobirania tecnològica*
+. *Gestió responsable de dades i dades obertes*
+
+És responsabilitat tant de l'IMI com de les unitats de l'Ajuntament desplegar aquestes directrius en els projectes desenvolupats per i per a l'Ajuntament de Barcelona.
+
+== Projectes _Agile_
+
+Per complir amb l'objectiu de la posada en marxa de la metodologia _Agile_ en els projectes de les entitats de l'Ajuntament, els principis i les directrius són els següents:
+
+{counter:guidelines_agile}. Col·laboració interdisciplinària::
+
+Es configuraran equips multidisciplinaris que incloguin els diferents rols i especialitats necessàries per al desenvolupament d'aplicacions, serveis i processos.
+Només una o dues persones en són responsables directament, però l'èxit de l'equip recau per igual en tots els membres.
+
+
+{counter:guidelines_agile}. Equips auto-organitzats::
+
+Els equips que s'organitzen de forma autònoma i flexible poden crear nous enfocaments i adaptar-se per sí mateixos a nous reptes en el seu entorn.
+En conseqüència, els rols i les responsabilitats dins dels equips tindran un cert nivell de flexibilitat i fluïdesa en funció de l'experiència, les habilitats i els coneixements dels integrants de l'equip, així com de les necessitats dels projectes.
+
+{counter:guidelines_agile}. Comunicació::
+
+S'ha d'establir un pla de comunicació tenint en compte la transparència i les responsabilitats dels diferents agents implicats.
+S'ha d'identificar els actors clau dels serveis i processos municipals, així com els actors de la part tècnica.
+Tots ells seran els destinataris de les accions comunicatives que s'hauran de dur a terme amb una freqüència adient als objectius i necessitats dels projectes.
+Les converses cara a cara tindran prioritat enfront d'altres canals de comunicació.
+
+{counter:guidelines_agile}. Transparència::
+
+S'ha de compartir de manera oberta i transparent amb els actors clau l'estatus del projecte, les prioritats, els riscos, els problemes, las tasques, fites, _user-stories_, contribucions i els eventuals “elements bloquejants”, per tal d'abordar amb rapidesa els reptes.
+Això es pot fer amb comunicacions directes però també fent servint eines adaptades a la metodologia _Agile_.
+
+{counter:guidelines_agile}. Millora contínua::
+
+S'establiran pràctiques de treball col·laboratiu per facilitar una cultura d'aprenentatge i de millora contínua, tant del servei prestat com de les capacitats dels integrants de l'equip.
+
+{counter:guidelines_agile}. _Feedback_ ràpid::
+
+L'equip s'esforçarà per fer iteracions tan curtes com sigui possible.
+Les pràctiques d'equip es faran de tal manera que facilitin l'obtenció del _feedback_ de manera ràpida tot incorporant aquest _feedback_ al _backlog_ del projecte.
+
+{counter:guidelines_agile}. Acceptació del canvi::
+
+S'entén que els plans i projectes evolucionaran i canviaran al llarg de la prestació del servei.
+S'establiran pràctiques d'anàlisi i de planificació per reflectir aquest fet.
+
+{counter:guidelines_agile}. Enfocament iteratiu::
+
+Les activitats d'anàlisi, disseny, planificació i desenvolupament adoptaran un enfocament iteratiu en cicles curts per tal de permetre el _feedback_ precoç i canviar les prioritats en funció de les necessitats.
+
+{counter:guidelines_agile}. Desplegament ràpid, desplegament freqüent::
+
+S'ha de posar èmfasi en donar valor als usuaris finals tan ràpidament com sigui possible, reduir el temps de posada en producció de les aplicacions i rebre _feedback_ dels usuaris el més ràpid possible.
+Es donarà prioritat al producte mínim viable identificat que respon a les necessitats prioritàries dels usuaris i la resta de funcionalitats s'aniran desplegant en entregues posteriors.
+
+{counter:guidelines_agile}. Centrat en oferir valor a l'usuari::
+
+S'han de posar les necessitats de l'usuari al capdavant.
+Les necessitats de l'usuari van per davant de qualsevol altra necessitat, fins i tot les dels actors clau.
+Quan hi hagi un conflicte de necessitats entre els grups, ens hem d'assegurar que hi ha unes prioritats clares.
+Es promourà la diversitat en els equips per afavorir dissenys inclusius.
+
+{counter:guidelines_agile}. Qualitat::
+
+La qualitat no fa referència només a la qualitat tècnica, sinó també a la qualitat del servei.
+La qualitat està present a cada pas del procés i totes les persones de l'equip tenen la responsabilitat de garantir que el servei sigui d'un nivell alt.
+
+{counter:guidelines_agile}. Mesura del progrés::
+
+L'entrega de programari executable és la principal mesura de progrés.
+També cal aplicar altres mesures que reflecteixen el valor aportat a l'usuari i els serveis municipals per garantir que satisfà les necessitats reals i dona un valor real al ciutadà.
+
+== Sobirania tecnològica
+
+Per complir amb l'objectiu de sobirania tecnològica enunciada en l'Estratègia de transformació digital àgil i els estàndards de serveis digitals, especialment per evitar la dependència de proveïdors (_vendor lock-in_), les directrius són les següents, expandint els principis que guien l'IMI en matèria de tecnologia i innovació: interoperabilitat, agilitat, ètica i obertura de coneixements i tecnologies (tant programari com dades).
+
+=== Interoperabilitat, formats i estàndards oberts
+
+{counter:guidelines_sover}. Interoperabilitat::
+
+Tots els serveis digitals de l'Ajuntament de Barcelona donaran suport a la interoperabilitat, fonamentada en l'ús d'estàndards i formats oberts.
+
+{counter:guidelines_sover}. Ús d'estàndards oberts::
+
+Els serveis digitals de l'Ajuntament utilitzaran de manera obligatòria estàndards oberts, i en especial els continguts del catàleg d'estàndards de la Norma tècnica d'interoperabilitat (desenvolupats sota el Reial Decret 4/2010) o els estàndards oberts acceptats internacionalment que actualitzin, substitueixin o complementin aquests estàndards.
+Quan no hi hagi un estàndard obert aprovat per al format requerit es presentarà una proposta del format que es vol utilitzar, atenent al que estableix la normativa aplicable i els requisits per a _estàndards oberts_ de l'IMI (definit a la Guia sobre Sobirania Tecnològica que acompanya aquest Codi).
+
+{counter:guidelines_sover}. Identificació de formats i estàndards::
+
+L'IMI mantindrà llistes públiques de formats i estàndards tècnics en ús classificats com a obligatoris, prioritaris o recomanats.
+
+{counter:guidelines_sover}. Selecció d'estàndards::
+
+L'elecció d'estàndards seguirà un procés obert i transparent d'elecció partint de les necessitats dels usuaris, la flexibilitat, la promoció de la lliure competència i lliure col·laboració i les implicacions per a la futura interoperabilitat.
+Aquest procés haurà de ser aprovat formalment.
+Les àrees que tinguin el seu propi marc legal seguiran estàndards específics (per exemple, Geodata).
+
+=== Programari lliure, directrius generals
+
+{counter:guidelines_sover}. Adquisició i ús prioritari de programari lliure::
+
+L'adquisició i contractació pública d'eines i sistemes donarà preferència a l'ús de programari lliure, per a tota l'arquitectura tècnica de les aplicacions i els serveis entregats, evitant les dependències de sistemes no lliures.
+Es permetrà l'ús de solucions no lliures només en circumstàncies excepcionals, que es revisaran cas per cas, conforme amb criteris que s'establiran en la Guia de Contractació Tecnològica.
+
+{counter:guidelines_sover}. Alliberament de programari i documentació::
+
+Els projectes de desenvolupament de serveis digitals, tant interns com externs, hauran de desenvolupar-se des dels seus inicis amb vista al seu alliberament, seguint les millors pràctiques de desenvolupament de programari lliure, i es basaran per defecte en tecnologies obertes que permetin que el producte final pugui alliberar-se conforme a la política de l'Ajuntament i la normativa aplicable.
+La seva documentació, disseny i altres elements (sons, tipografies, etc.) es posaran també a disposició de tercers sota llicències de continguts oberts.
+
+{counter:guidelines_sover}. Afavoriment de la reutilització::
+
+En l'adquisició de programari s'incentivarà la reutilització de solucions ja existents.
+En els desenvolupaments en què participi l'Ajuntament s'intentarà, més enllà de la publicació sota llicències lliures, oferir facilitats tècniques i organitzatives per a la reutilització per part de tercers.
+En els casos en què no sigui possible alliberar el programari propietat de l'Ajuntament i de les seves entitats associades sota llicències lliures (per raons tècniques o legals), igualment es posarà aquest a la disposició d'altres administracions sense contraprestació i sense necessitat de conveni, conforme la normativa aplicable.
+
+{counter:guidelines_sover}. Mancomunitat de projectes::
+
+Quan sigui convenient, s'estudiarà la possibilitat de col·laborar amb altres administracions públiques i entitats en el desenvolupament de projectes tecnològics del seu interès, compartint els costos i afavorint la interoperabilitat.
+
+=== Projectes
+
+{counter:guidelines_sover}. Preparació i avantprojectes::
+
+En la fase de preparació de contractes s'ha de demostrar que s'ha fet una recerca exhaustiva de possibles solucions ja existents i reutilitzables, tant a escala nacional com en repositoris públics internacionals.
+
+{counter:guidelines_sover}. Especificacions tècniques i funcionals::
+
+Els projectes proposats no han d'incloure cap especificació que impedeixi proposar solucions amb tecnologia obertes, i no han d'esmentar productes i proveïdors específics excepte en casos de compatibilitat amb tecnologies existents, conforme amb restriccions indicades en la Guia sobre Sobirania Tecnològica.
+L'arquitectura, els requeriments d'interoperabilitat i el dret i la capacitat de poder modificar i reutilitzar el programari dels sistemes i serveis digitals seran considerats característiques i prescripcions tècniques.
+
+{counter:guidelines_sover}. Càlcul de costos::
+
+Tota decisió sobre l'adquisició de tecnologies tindrà en compte el cost total del sistema sobre la vida útil del servei a llarg termini (TCO per les sigles en anglès), inclosos els costos ocults (per exemple, costos de sortida per a substituir una tecnologia en el futur quan no s'utilitzen formats o interfícies basats en estàndards oberts) així com els beneficis socials nets.
+
+{counter:guidelines_sover}. Contractació de projectes i serveis::
+
+Els contractes per a projectes nous o extensions de projectes existents utilitzaran clàusules model basades en aquests principis, fins i tot per a avantprojectes en els quals es fa una preselecció de tecnologies així com en acords marcs de contractació o contractació per lots.
+Aquestes clàusules exigiran l'ús de solucions basades en tecnologies lliures, tret de casos excepcionals que es detallen a la Guia de Contractació Tecnològica.
+
+{counter:guidelines_sover}. Millors pràctiques de desenvolupament::
+
+El desenvolupament d'infraestructures i serveis digitals seguirà les millors pràctiques en metodologies de desenvolupament de programari lliure, utilitzant per defecte els mètodes _Agile_ que s'apliquen a l'IMI.
+
+{counter:guidelines_sover}. Manteniment de codi i documentació::
+
+Els proveïdors de serveis de desenvolupament dels sistemes informàtics, durant la vigència del seu contracte, hauran de col·laborar amb l'IMI a mantenir el codi disponible en sistemes adequats de control de versions.
+Així mateix, tot sistema i servei haurà d'estar documentat correctament per a usuaris, desenvolupadors, i incloure les instruccions necessaris per a la instal·lació, el desplegament i la configuració del servei en entorns lliures i oberts.
+
+=== Obertura, comunitat i contribucions
+
+{counter:guidelines_sover}. Col·laboració amb comunitats lliures i altres entitats::
+
+Els projectes proposats estudiaran les possibilitats de col·laboració amb les comunitats tecnològiques i de programari lliure, en especial amb comunitats locals.
+També s'afavorirà la col·laboració amb altres entitats i institucions interessades, per promoure la innovació social i els productes i competències tecnològics locals.
+
+{counter:guidelines_sover}. Sostenibilitat i governança::
+
+Els projectes que generin sistemes i eines completes lliures a través d'un servei de desenvolupament promogut i finançat per l'Ajuntament hauran d'incloure un model de sostenibilitat i de governança del projecte.
+Aquest model inclourà, entre altres aspectes, una aproximació a la definició de la comunitat, les seves eines de suport, les activitats de comunicació i màrqueting, els processos per a la inclusió de contribucions externes, la gestió de la propietat intel·lectual i la sostenibilitat del programari més enllà del mateix projecte per a l'Ajuntament.
+
+{counter:guidelines_sover}. Contribucions externes::
+
+Es promourà que actors externs puguin fer contribucions per als projectes liderats o alliberats per l'Ajuntament.
+S'establiran regles concretes adaptades a cada cas per a la gestió dels drets sobre les contribucions amb l'objectiu de garantir el respecte dels drets de tercers i la normativa aplicable.
+
+{counter:guidelines_sover}. Retorn a la comunitat ( _upstreaming_) i compatibilitat a futur (_forward compatibility_)::
+
+En el cas dels projectes que millorin o transformin un producte de programari lliure existent, realitzats tant per personal de l'Ajuntament com per proveïdors, aquestes millores i qualssevol correccions contribuiran, tant com sigui possible, al projecte original (_upstreaming_).
++
+Així mateix, els projectes garantiran tant com puguin la compatibilitat a futur, de tal manera que el programari adaptat per a l'Ajuntament de Barcelona redueixi al màxim els possibles problemes d'actualització i manteniment.
+
+=== Aspectes legals
+
+{counter:guidelines_sover}. Propietat intel·lectual en el programari municipal::
+
+Els projectes de l'Ajuntament establiran un marc legal per determinar de manera clara els drets de propietat intel·lectual dels desenvolupaments fets i de i la seva gestió. Depenent del cas, els acords establiran el model de propietat triat, incloent les opcions de cedir els drets a l'Ajuntament o a l'IMI, deixar-los en mans del proveïdor, o cedir-los a entitats que gestionin el codi rellevant per al projecte, sempre que s'asseguri, per a projectes alliberats, la seva disponibilitat sota llicència lliure.
+
+{counter:guidelines_sover}. Gestió legal dels projectes de desenvolupament de programari::
+
+Els projectes hauran d'establir processos i documentació per a gestionar els aspectes legals vinculats amb la propietat intel·lectual i les llicències de programari (en particular, en relació a de les contribucions, les llicències dels components utilitzats en el desenvolupament i altres dependències del programari), i per fer-ho, utilitzar les millores pràctiques i eines estàndards o d'ús generalitzat al sector per a garantir la traçabilitat i integritat del codi.
+
+{counter:guidelines_sover}. Llicència per a l'alliberament de programari::
+
+El programari generat en el marc dels projectes de serveis digitals de l'Ajuntament, inclòs el programari resultant de contractes de serveis, serà posat a disposició pública sota una llicència lliure que compleixi la normativa aplicable.
+L'Ajuntament establirà els criteris i els requisits per a determinar la llicència a utilitzar per a cada projecte.
+
+{counter:guidelines_sover}. Marques::
+
+En cas de registrar una marca comercial per designar un projecte de programari alliberat per l'Ajuntament, aquest establirà una política pública d'ús que permeti als membres de la comunitat d'usuaris i desenvolupadors utilitzar-la en el marc de les activitats d'aquesta comunitat.
+
+== Gestió responsable i ètic de dades
+
+Per complir amb l'objectiu de la gestió responsable i ètica de dades, dins del marc dels estàndards de serveis digitals, les directrius d'aquest Codi de pràctiques tecnològiques són les següents:
+
+=== Abast
+
+{counter:guidelines_ethic}. Abast::
+
+Les dades a les quals fa referència aquest codi de pràctiques és el conjunt de totes les dades municipals.
+Entre les dades municipals podem distingir a efectes conceptuals tres grans grups:
++
+a) *Dades de gestió*: són aquells conjunts de dades que les diferents gerències i entitats municipals usen per al desenvolupament de la seva missió.
++
+b) *Dades* *obertes*: Són els conjunts de dades que la corporació municipal posa a disposició del públic en format cru.
++
+c) *Estadística oficial*: És el conjunt d'estadístiques obtingudes per l'Ajuntament sobre diversos conjunts de dades i que tenen la consideració d'Estadística Oficial.
+Només el primer conjunt (de gestió) pot incloure *dades de caràcter personal*.
+
+{counter:guidelines_ethic}. Repositoris::
+
+L'Ajuntament disposa de diversos repositoris per a cada tipus de conjunt de dades.
+La seva definició i gestió estarà vinculada al conjunt de requeriments tecnològics que aquest codi descriu, així com la normativa de protecció de dades.
+De manera transversal però, existeix un repositori global de dades en el City OS que es constitueix com a repositori analític únic de dades municipals.
+El City OS podrà incloure una imatge analítica de qualsevol conjunt de dades de gestió.
+
+=== GESTIÓ DE LES DADES
+
+{counter:guidelines_ethic}. Gestió basada en la evidència::
+
+Cal assegurar que la gestió dels serveis municipals es faci en base a les evidències fonamentades en les dades.
+Es durà a terme una gestió transversal i més eficient del conjunt de dades que actualment disposa l'Ajuntament (el _Data Lake_) per tal que pugui retornar un valor molt més gran al ciutadans, i que permeti l'aplicació d'anàlisis més complexos desenvolupats per la disciplina de la Ciència de les Dades.
+
+{counter:guidelines_ethic}. Planificació::
+
+En suport de les necessitats de gestió i els criteris i els requisits missió de l'Ajuntament de Barcelona, cada unitat haurà de desenvolupar i mantenir el seu propi Pla de _Management_ de les Dades (PMD) que descriurà els objectius dels recursos propis de tecnologia de la informació. Els objectius cal que siguin específics, mesurables i verificables de manera que es pugui supervisar el seu progrés.
+
+{counter:guidelines_ethic}. Inventari i registre d'activitat::
+
+Les unitats hauran de mantenir un inventari dels sistemes informació, els seus contenidors i les eines de disseminació amb un nivell de detall que es determini per tal de supervisar-los i gestionar-los.
+D'altra banda cada unitat haurà de mantenir informat un registre que reculli totes les accions sobre les bases de dades tant de gestió com analítiques.
+L'oficina del Director Municipal de Dades DMD–CDO determinarà la metainformació d'aquestes sistemes.
+
+{counter:guidelines_ethic}. Gestió de les dades::
+
+Les unitats hauran de facilitar de manera continuada l'adopció de les noves tecnologies i avaluar tot el cicle de vida de cada sistema de informació.
+Les entitats hauran d'incorporar els passos següents quan sigui apropiat en la planificació, definició del pressupost i gestió:
+* Les dades municipals estaran èticament gestionades durant el seu cicle de vida (creació, col·lecció, emmagatzematge, ús–anàlisi, difusió, arxiu i destrucció).
+* La informació municipal es gestiona fent possible el seu accés, consulta i ús al públic a partir de disposicions legals vigents.
+* Es registrarà l'activitat realitzada sobre les dades en un conjunt ampli de metainformació.
+* S'identificaran els riscos contra la privacitat o de seguretat durant tot el cicle vida de les dades, desenvolupant-ne anàlisis de riscos i solucions de seguretat.
+* Es gestionarà mitjançant una assignació clara de rols i de responsabilitats per tal de promoure un disseny i operació eficients de tots els processos de gestió.
+
+{counter:guidelines_ethic}. Arquitectura::
+
+Cal que les unitats desenvolupin un document d'arquitectura (DA) que descrigui l'arquitectura que es disposa, l'arquitectura objectiu i el pla per assolir aquesta darrera.
+La DA de cada unitat s'ha d'alinear al PMD.
+La DA cal que identifiqui els diferents rols que poden tenir accés als sistemes i també quins perfils poden tenir accés a quina informació i sota quines circumstàncies.
+
+{counter:guidelines_ethic}. Obertura i interoperabilitat de les dades i formats::
+
+Les unitats promouran l'obertura de les dades municipals (_Open Data_) i la interoperabilitat basada en formats oberts, subjecta als requeriments tècnics i legals existents, per a incrementar l'accés públic a la informació municipal i l'eficiència de les operacions, reduir els costos, i millorar els serveis pels ciutadans.
+
+{counter:guidelines_ethic}. Gestió de riscos::
+
+Les unitats han d'aplicar i documentar les mesures de seguretat de la informació i les dades designades, de la gestió de registres, transparència, avaluació d'impacte i les cadenes de subministraments i fer-ho durant tot el cicle de dades de forma que els riscos estiguin avaluats i gestionats.
+
+{counter:guidelines_ethic}. Pla de resiliència::
+
+Cada unitat haurà de desenvolupar un Pla de Resiliència.
+El Pla de Resiliència és essencial per tal que els serveis puguin continuar exercint les serves tasques en situacions de disrupció.
+
+{counter:guidelines_ethic}. Privacitat i protecció de les dades de caràcter personal::
+
+Les unitats municipals només podran crear, col·leccionar, usar, emmagatzemar, o difondre dades de caràcter personal si en tenen l'autorització pertinent.
+Les unitats han d'establir i mantenir un programa de protecció de les dades que asseguri el compliment de la normativa aplicable (en especial, el Reglament (UE) núm. 2016/679 del Parlament Europeu i del Consell, de 27/04/2016) i altres requeriments de privacitat, i que avaluï i gestioni els riscos sobre la privacitat.
+
+{counter:guidelines_ethic}. Privacitat per disseny _pets_::
+
+S'han de prendre les mesures necessàries per tal d'incorporar estratègies de privacitat per al disseny i/o tecnologies de millora de la privacitat (_PET's_), a partir de les quals la salvaguarda de la privacitat dels interessats es tingui en compte en tots els processos de disseny, desenvolupament i gestió dels sistemes d'informació de l'Ajuntament.
+Cal usar sempre que sigui aplicable algoritmes d'encriptació, anonimització o pseudonominització de les dades.
+
+{counter:guidelines_ethic}. Avaluacions d'impacte::
+
+Les unitats faran avaluacions d'impacte de protecció de dades orientades a assegurar preventivament que, quan les operacions de tractament poden comportar riscos especialment rellevants, es prenguin les mesures necessàries per reduir, en la mesura del possible, el risc de danyar o perjudicar les persones, o afectar-ne negativament els drets i les llibertats, impedint o limitant-ne l'exercici o el contingut.
+
+{counter:guidelines_ethic}. Seguretat de les dades::
+
+La seguretat física de les dades estarà determinada per els estàndards definits per l'IMI.
+En tot cas, qualsevol tercer encarregat del tractament de dades haurà d'oferir garanties suficients respecte de la implantació i el manteniment de les mesures de seguretat requerides, i les altres directius que defineix aquest codi i la futura Estratègia de Dades a l'Ajuntament de Barcelona.
+
+=== ROLS I GOVERNANÇA
+
+{counter:guidelines_ethic}. Rols i responsabilitats::
+
+L'organització municipal adaptarà els rols i competències dels responsables i unitats per observar els requeriments d'aquest codi.
+Es nomenarà un Director de Municipal de Dades, responsable de l'Oficina d'Anàlisi de Dades municipals, i cada unitat tindrà un delegat responsable de dades que exercirà aquest rol per a cadascun dels òrgans responsables de dades.
+En compliment del Reglament 2106/679 de la UE, l'Ajuntament designarà un Delegat de Protecció de Dades (DPD) corporatiu amb les funcions que aquest reglament li assigna.
+
+{counter:guidelines_ethic}. Gestió corporativa – governança::
+
+Les gerències i els ens municipals hauran d'acomplir els reglaments i instruccions respecte a la gestió de dades, de la informació i dels documents municipals que es derivin des dels òrgans executius, que es desenvoluparan a partir de l'Estratègia de Gestió Responsable de Dades liderada per la Comissionada de Tecnologia i Innovació Digital
+
+{counter:guidelines_ethic}. Directiva de dades::
+
+L'Estratègia de Dades Municipal que desenvoluparà a partir d'aquest codi i la corresponent Mesura de Govern sobre la Estratègia de Dades a l'Ajuntament de Barcelona concretarà amb detall tècnic el desenvolupament de la gestió de dades municipals.

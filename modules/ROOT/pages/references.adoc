@@ -1,0 +1,43 @@
+[appendix]
+= Referències
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+Les guies esmentades en aquest Codi tenen una bibliografia detallada per a cada àrea (Guia sobre Metodologies a l'Ajuntament de Barcelona , Guia sobre Sobirania Tecnològica).
+
+== Unió Europea
+
+* Communication COM(2013) 455 final: “_Against lock-in: building open ICT systems by making better use of standards in public procurement_”. En línia en _http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=2327_
+
+* SWD(2013) 224 final: “_Guide for the procurement of standards-based ICT — Elements of Good_ _Practice_”. En línia en _http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=2326_
+
+* “_The Sharing and Reuse Framework for IT Solutions_”, (2016). En línia en _https://joinup.ec.europa.eu/sites/default/files/sharing_and_reuse_of_it_solutions_framework_final.pdf_
+
+* “_Governance Models for Sharing and Re-use for Common IT Solutions_,” 2013. En línia en _https://joinup.ec.europa.eu/sites/default/files/b6/cc/cd/Governance%20Models%20for%20Sharing%20and%20Re-use.pdf_
+
+== Espanya
+
+* Norma tècnica d'interoperabilitat, al Pae (Portal Administración Electrónica) _http://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html_
+
+
+== Ajuntament de Barcelona
+
+* Política de gestió documental _http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf_
+
+* Geoportalbcn, a _http://www.bcn.cat/geoportal/es/estandards.html_
+
+== Altres documents
+
+* Manifest Agile: _http://agilemanifesto.org/iso/ca/manifesto.html_
+
+* Agile Principles: _http://agilemanifesto.org/iso/ca/principles.html_
+
+* Open Standards Requirement for Software, _https://opensource.org/osr_
+
+* Definició de Programari Lliure: _https://www.gnu.org/philosophy/free-sw.ca.html_
+
+* Definició de Codi Obert: _https://opensource.org/osd_
+
+* Paris Declaration de l'Open Government Partnership, en línia en _https://paris-declaration.ogpsummit.org/_

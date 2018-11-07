@@ -1,4 +1,8 @@
 = Objecte i abast
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
 
 == Objecte
 
@@ -29,7 +33,9 @@ Alguns projectes i les seves ampliacions (per exemple, Decidim Barcelona, Sentil
 Aquest document s'estructura en un conjunt de principis generals, avalats per directrius que corresponen als tres principals eixos de l'estratègia de transformació digital àgil de l'Ajuntament de Barcelona:
 
 * El desenvolupament de serveis digitals àgils
+
 * La sobirania tecnològica, basada en l'ús d'estàndards oberts i de programari lliure
+
 * La gestió ètica i segura de dades i la política de dades obertes
 
 Aquest document és complementari i no substitueix cap política de l'organització ni regulació municipal o d'altres àmbits.

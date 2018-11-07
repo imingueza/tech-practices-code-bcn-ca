@@ -27,13 +27,13 @@ endif::[]
 // (3/4) Afegir a sota la llista de capítols o seccions sense numerar.
 // IMPORTANT: posar una línia en banc entre cada include.
 
-include::objecte.adoc[]
+include::aim-and-scope.adoc[]
 
-include::mesures.adoc[]
+include::guidelines.adoc[]
 
-include::directrius.adoc[]
+include::principles.adoc[]
 
 // (4/4) Afegir a sota la llista de annexes.
 // IMPORTANT: Posar una línia en blanc entre includes.
 
-include::referencies.adoc[]
+include::references.adoc[]
