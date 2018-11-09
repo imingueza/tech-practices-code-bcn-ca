@@ -4,7 +4,7 @@
 //
 // MANDATORY. A language label supported by Asciidoctor,
 // https://asciidoctor.org/docs/user-manual/#customizing-labels
-:lang: en
+:lang: ca
 //
 // MANDATORY. Numeric revision in X.Y.Z format, where X, Y and Z are numbers,
 // and Z is optional.
@@ -12,10 +12,10 @@
 //
 // MANDATORY. URL pointing to a Git repository with the source code of the
 // document. Something like 'https://github.com/USERNAME/REPONAME'.
-:_public_repo_url: https://github.com/AjuntamentdeBarcelona/codi-practiques-tec-bcn-ca
+:_public_repo_url: https://github.com/AjuntamentdeBarcelona/tech-practices-code-bcn-ca
 //
 // MANDATORY.
-:_url: https://ethical-digital-standards-bcn.netlify.com/ca/tech-practices/
+:_url: https://barcelona.cat/digitalstandards/ca/tech-practices/
 //
 // MANDATORY. Title of the document. In web format, it appears as a heading of
 // level 1. In PDF format, it appears in a title page.
@@ -25,9 +25,7 @@
 :_subtitle:
 //
 // MANDATORY. Comma-separated list of names.
-:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
-// Normalment no és necessari modificar aquest camp.
-:doctitle: {_title}{_subtitle}
+:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, Lluís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider
 //
 // OPTIONAL. Comma-separated list of names.
 :_contributors:
@@ -58,7 +56,12 @@
 :_citation: {authors}, {docyear}, {_title}
 //
 // MANDATORY. Copyright owner.
-:_copyleft: Ajuntament de Barcelona i els autors d'aquest text, sota Creative Commons Reconeixement-CompartirIgual 4.0 Internacional (CC-BY-SA-4.0)
+:_copyleft: Ajuntament de Barcelona i els autors d'aquest text
+//
+// MANDATORY. Legal terms under which this document can be distributed and/or
+// modified. It's usually not necessary to modify the default contents of this
+// field.
+:_license: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
 //
 // MANDATORY. DO NOT CHANGE THIS.
 :page-lang: {lang}
