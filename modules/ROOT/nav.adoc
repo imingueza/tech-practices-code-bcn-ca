@@ -2,4 +2,4 @@
 * xref:guidelines.adoc[Mesures i aplicació a la contractació]
 * xref:principles.adoc[Directrius per al disseny i el desenvolupament digital]
 * xref:references.adoc[Referències]
-* xref:glossari:ROOT:glossari.adoc[Glossari]
+// * xref:glossari:ROOT:glossari.adoc[Glossari]
