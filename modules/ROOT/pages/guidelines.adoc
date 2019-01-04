@@ -222,7 +222,7 @@ La seva definició i gestió estarà vinculada al conjunt de requeriments tecnol
 De manera transversal però, existeix un repositori global de dades en el City OS que es constitueix com a repositori analític únic de dades municipals.
 El City OS podrà incloure una imatge analítica de qualsevol conjunt de dades de gestió.
 
-=== GESTIÓ DE LES DADES
+=== Gestió de les dades
 
 {counter:guidelines_ethic}. Gestió basada en la evidència::
 
@@ -287,7 +287,7 @@ Les unitats faran avaluacions d'impacte de protecció de dades orientades a asse
 La seguretat física de les dades estarà determinada per els estàndards definits per l'IMI.
 En tot cas, qualsevol tercer encarregat del tractament de dades haurà d'oferir garanties suficients respecte de la implantació i el manteniment de les mesures de seguretat requerides, i les altres directius que defineix aquest codi i la futura Estratègia de Dades a l'Ajuntament de Barcelona.
 
-=== ROLS I GOVERNANÇA
+=== Rols i governança
 
 {counter:guidelines_ethic}. Rols i responsabilitats::
 
