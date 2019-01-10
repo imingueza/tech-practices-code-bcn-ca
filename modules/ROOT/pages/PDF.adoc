@@ -1,39 +1,47 @@
-// (1/4) Canviar la posició i continguts de la taula de continguts, si és necessari.
-// També :sectnums:
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
-
-ifndef::env-site,env-github[]
-:toc: left
-endif::[]
-:toclevels: 2
-
 = {doctitle}
+include::{partialsdir}/README.adoc[tag=metadata]
+:doctitle: {_title}
+:page-layout: pdf
+:toc: macro
+:revdate: {localdatetime}
 
-:sectnums!:
+// [.my-authors-class]
+Autors: {authors}
+
+[.my-revnumber-class]#v{revnumber}#, [.my-revdate-class]#{revdate}#
+
+
+[.page-second]
+--
+[discrete.no-toc]
+=== Summary
 
 [abstract]
 {_summary}
+--
+
+:toclevels: 3
+toc::[]
 
 :leveloffset: +1
-// (2/4) Afegir a sota la llista de capítols o seccions sense numerar.
-// IMPORTANT: posar una línia en banc entre cada include.
 
+:!sectnums:
+
+// Non-numbered sections here
 
 :sectnums:
-// (3/4) Afegir a sota la llista de capítols o seccions sense numerar.
-// IMPORTANT: posar una línia en banc entre cada include.
+
 
 include::aim-and-scope.adoc[]
 
-include::guidelines.adoc[]
-
 include::principles.adoc[]
 
-// (4/4) Afegir a sota la llista de annexes.
-// IMPORTANT: Posar una línia en blanc entre includes.
+include::guidelines.adoc[]
 
+[appendix]
 include::references.adoc[]
+
+:!sectnums:
+
+[.discrete.page-end-notes]
+= Notes
