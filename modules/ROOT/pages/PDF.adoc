@@ -14,7 +14,7 @@ Autors: {authors}
 [.page-second]
 --
 [discrete.no-toc]
-=== Summary
+=== Resum
 
 [abstract]
 {_summary}
@@ -40,8 +40,3 @@ include::guidelines.adoc[]
 
 [appendix]
 include::references.adoc[]
-
-:!sectnums:
-
-[.discrete.page-end-notes]
-= Notes
