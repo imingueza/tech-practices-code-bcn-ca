@@ -1,3 +1,4 @@
+// Test Octo
 // tag::metadata[]
 // IMPORTANT: the following block (until "end::metadata[]" appears) must be
 // contiguous (no blank lines).
