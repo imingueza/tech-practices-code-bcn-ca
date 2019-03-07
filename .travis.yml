@@ -40,3 +40,9 @@ deploy:
   on:
     repo: $TRAVIS_REPO_SLUG
   overwrite: true
+env:
+  global:
+    - secure: E4z12+qWaJGrxbjnOVnNrTfkUc6vkFAzuLHaGOXYwVDaF11dNXxzAXyiYmad6rMi6MTuAzsVeKMFUt/VIJ0uGk5zwt3Oies0sZmrYZNNk0VYvg7iIvfJKuA0oclHeia70t0j9Ad/EuZj5omjAtQS3yJ+KVZrohNxTb33Ljo3hS3B03dfO87zHgfcoXSKDH/VNgxUjko1P/IGd5aXopSPEoPtrB+F8IoAm2HJGQ87SqSIF8vef2tNvyW9Pk9tx1ggJmpOlwLlwuJWmeM1Lqea1Vvt8T070mtQX1RiO8/0CNSZ3f8QSJ2pCvrSYVXc3+QjTUsqeyrsfD8q0cS5y91YysUfunGKcPCsLBzEBhLY7zIDqupcaBhuQON8YGf1tGxkM4BrYJ5q6/w/HFd0mSTu/xHWiDCD5Lm+WVLg5rPs+UAi7EXKpCcuJiWYMMRfVths9NNg1QQKoYuJ9JLevxE8A+Y/l8EDCwEtcPr5PLWaSV4HnRctsv41jKKeZTar3wG1hzmuDJB8SeMPmIuYsEp4wWavcS4iUu2t1gQf1Ln391rtQneYoBp0ywPSPJQX7M4RwOtbUWShVCAccAope8NfdOrMhcBhr83OkhkqPWpnrtsY15Z3I27bFpQeFRfF4hwp/HOZyeb25NMxuPvwLAThhDx4RHNOHcY+s5aME1/h11w=
+
+after_script:
+  - ./fixup.sh
